@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="itemGridCols">3</integer>
+
+    <!-- By Izmu for V3 BEGIN -->
+    <integer name="default_grid_column_count">2</integer>
+    <integer name="default_item_title_rows">3</integer>
+    <integer name="default_item_price_rows">1</integer>
+    <integer name="default_item_nutrition_and_flag_rows">1</integer>
+    <integer name="max_percentage">100</integer>
+    <integer name="min_percentage">1</integer>
+    <!-- By Izmu for V3 END -->
+</resources>

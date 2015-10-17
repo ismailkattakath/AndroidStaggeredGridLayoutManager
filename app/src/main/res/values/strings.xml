@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">WishpadV3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+
+
+    <string name="downloading_data_message">Downloading data...</string>
+    <string name="subitemlist_card_title">Choose your option</string>
+    <string name="app_mode_waiter_tab">Waiter Tab</string>
+    <string name="app_mode_guest_tab">Guest Tab</string>
+
+    <string name="register"> <u>Not Registered Yet, Click Here.</u></string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="title_activity_table_chooser">TableChooserActivity</string>
+
+    <string name="spinner_pingpoint_title">Select Device</string>
+    <string name="spinner_tablet_title">Select Tablet</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment</string>
+    <string name="hello_third_fragment">Hello third fragment</string>
+    <string name="hello_fourth_fragment">Hello fourth fragment</string>
+    <string name="hello_pro_fragment">Go Pro fragment</string>
+
+    <string name="title_activity_table_orders">TableOrdersActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_chef">ChefActivity</string>
+    <string name="title_activity_license">wishpadv3</string>
+    <string name="welcome_message">Thank you for choosing us. Please sign in to get started. If you haven\'t recieved your credentials yet or forgotten them, please contact us at support@etuper.com for help.</string>
+    <string name="sign_in_error_title">Unable to Sign In</string>
+    <string name="sign_in_error_notification_message">the notification id is empty</string>
+    <string name="sign_in_error_message">Please verify your Email ID and Password and try again</string>
+    <string name="signing_in_message">Configuring Wishpad. Please wait</string>
+    <string name="email_valid_title">Done</string>
+    <string name="email_valid_message">Recovery Email has been sent. Please check your mailbox</string>
+    <string name="email_not_valid_title">Invalid Email ID</string>
+    <string name="email_not_valid_message">Please provide a valid Email ID and try again</string>
+    <string name="email_already_registered_title">Email Registered</string>
+    <string name="email_already_registered_message">Email already registered</string>
+    <string name="email_null_title">No Mail</string>
+    <string name="email_null_message">please enter valid email address</string>
+    <string name="downloading_images_message">Downloading Images</string>
+    <string name="title_activity_ping_point">PingPointActivity</string>
+    <string name="upload_order">Upload Order</string>
+    <string name="forgot_email">enter your mail id</string>
+    <string name="forgot_send">SEND</string>
+    <string name="Error_send">Error</string>
+    <string name="title_connection_error">No Internet</string>
+    <string name="message_connection_error">Oops&#33; Unable to connect to the server. Please check your Internet and retry</string>
+    <string name="title_tablet_name">Device Name Invalid</string>
+    <string name="message_tablet_name">Please provide a valid name for this device</string>
+    <string name="title_password_mismatch">Password Error</string>
+    <string name="message_password_mismatch">Please check your entered password and retry</string>
+    <string name="restaurant_name_null_title">Restaurant Name</string>
+    <string name="restaurant_name_null_message">Restaurant Name is Blank,Please provide a Name</string>
+    <string name="email_filed_null_title">Email Blank</string>
+    <string name="email_filed_null_message">email field cannot be null</string>
+    <string name="password_filed_null_title">Password Blank</string>
+    <string name="password_filed_null_message">password field cannot be null</string>
+    <!-- By Izmu for V3 BEGIN -->
+    <string name="subitem_list_tile">Available Choices</string>
+    <string name="add_to_tray">Add To Tray</string>
+    <string name="total">Total</string>
+    <string name="login_intro_text">Sign In to your Restaurant</string>
+    <string name="register_intro_text">Gateway to the world of smart restaurants. And its FREE&#33;</string>
+    <string name="new_account">Don\'t have an account?</string>
+    <string name="sign_up">Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="terms_and_conditions">By registering you agree to the Terms &amp; Conditions</string>
+    <string name="email_hint">Email ID</string>
+    <string name="slogan_hint">Enter Your Slogan</string>
+    <string name="city_hint">Enter Your City</string>
+    <string name="state_hint">Enter Your State</string>
+    <string name="country_hint">Enter Your Country</string>
+    <string name="zip_hint">Zip</string>
+    <string name="contact1_hint">contact1</string>
+    <string name="contact2_hint">contact2</string>
+    <string name="address1_hint">Enter Your address</string>
+    <string name="address2_hint">Enter Your address</string>
+    <string name="device_name_hint">Device Name</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="restaurant_name_hint">Restaurant Name</string>
+    <string name="close_button_txt">CLOSE</string>
+    <string name="recovery_button_txt">Send Recovery Email</string>
+    <string name="forgot_password_intro_text">Don\'t worry. We shall help you to recover your account</string>
+    <string name="press_back_to_exit">Press again to exit</string>
+    <string name="ok">Ok</string>
+    <string name="pos_mode">POS Printer</string>
+    <string name="chef_mode">KOT Screen</string>
+    <string name="waiter_mode">e-Menu</string>
+    <string name="choose_name_message">1. Please provide a name for this device</string>
+    <string name="choose_name_hint">E.g. Bob\'s Tablet</string>
+    <string name="choose_mode_message">2. Please choose the role of this device in your Restaurant</string>
+    <string name="waiter_mode_hint">To take orders from Guests (Used by Waiter or Guests)</string>
+    <string name="chef_mode_hint">To receive and display orders sent from eMenu at Kitchen</string>
+    <string name="pos_mode_hint">To display and keep completed orders at the POS desk</string>
+    <string name="choose_name_and_mode_hint">You may change device name and role anytime from Settings. For more help, visit help.wishpad.me</string>
+    <string name="go_pro_hint_device_max_limit_reached">This device is already registered under another Restaurant. If you want to use it under your Restaurant too, its time to go PRO&#33;</string>
+    <string name="go_pro_hint_max_licence_reached">Your Restaurant has reached Maximum Free Device-Licence limit. Hope you have enjoyed the Wishpad experience. Its time to go PRO&#33;</string>
+    <string name="go_pro_hint_pos_mode">POS Printer mode is available only on PRO version. Upgrade to PRO now and enjoy Wishpad in full throttle&#33;</string>
+    <string name="go_pro_button">See Price &amp; Plans</string>
+    <string name="go_pro_features">► Add unlimited devices\n► Print to Multiple printers or KOTs\n► POS Printer Support\n► Sales Analytics\n► Custom Themes\n► 24/7 Support &amp; much more</string>
+    <string name="help_slide_manage_anywhere_title">Manage from anywhere</string>
+    <string name="help_slide_manage_anywhere_body">To manage your Food Menu, Tables, Restaurant Profile, Device Licenses, Printers, Sales Data etc, sign-in to manager.wishpad.me from PC with your Email ID</string>
+    <string name="help_slide_plug_and_play_title">Easy plug &amp; play&#33;</string>
+    <string name="help_slide_plug_and_play_body">Download Wishpad V3 from Google Play to more devices and sign-in with your Email ID. They\’ll simply start working together when connected to the same Wi-Fi</string>
+    <string name="help_slide_multi_mode_title">One Device, Multiple Modes</string>
+    <string name="help_slide_multi_mode_body">Each device with Wishpad V3 can work as an E-Menu, KOT Screen or a POS Printer and they can inter-communicate even without Internet</string>
+    <string name="help_slide_more_help_title">It\’s just tip of an iceberg&#33;</string>
+    <string name="help_slide_more_help_body">To know more about how to effectively configure multiple devices inter-operably under an account to help the business done, please visit help.wishpad.me</string>
+
+    <!--Download titles and messages -->
+    <string name = "registering_restaurant_title">Registering</string>
+    <string name = "registering_restaurant_message">Registering your Restaurant please wait</string>
+    <string name = "registration_success_title">Register Success</string>
+    <string name = "registration_success_message">Wishpad account for your Restaurant has been created successfully. The Email ID you have used for registration is the Single Sign-on ID for managing this account. Please make a note of it</string>
+    <string name = "signing_in_title">Signing In</string>
+    <string name = "title_downloading">Downloading</string>
+    <string name = "title_updating">Updating</string>
+    <string name = "title_syncing">Syncing</string>
+    <string name = "uploading_title">Uploading</string>
+    <string name = "uploading_message">Uploading Order</string>
+    <string name="syncing_in_title">Syncing</string>
+    <string name="syncing_data_message">Syncing data</string>
+    <string name="downloading_image_title">Downloading Image</string>
+    <string name="downloading_image_message">Downloading Images Please Wait</string>
+    <string name="updating_image_title">Updating Image</string>
+    <string name="updating_image_message">Updating Image Please Wait</string>
+    <string name="download_complete">Download complete</string>
+    <string name="download_paused">Download paused</string>
+    <string name="download_pending">Download pending</string>
+    <string name="download_running">Downloading</string>
+    <string name="download_successful">Download complete</string>
+    <string name="download_progress">Downloading</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_default">Looking for any download</string>
+    <string name="download_header">Downloading Menu</string>
+    <string name="download_image_header">Downloading Images</string>
+    <string name="connect_internet">Please connect to Internet</string>
+    <string name="new_order">Create New Order</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
