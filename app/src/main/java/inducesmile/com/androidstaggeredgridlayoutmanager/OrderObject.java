@@ -1,10 +1,10 @@
 package inducesmile.com.androidstaggeredgridlayoutmanager;
 
-public class ItemObjects {
+public class OrderObject {
     private String name;
     private int photo;
 
-    public ItemObjects(String name, int photo) {
+    public OrderObject(String name, int photo) {
         this.name = name;
         this.photo = photo;
     }

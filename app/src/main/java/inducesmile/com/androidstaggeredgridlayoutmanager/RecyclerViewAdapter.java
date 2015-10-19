@@ -8,25 +8,25 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-public class SolventRecyclerViewAdapter  extends RecyclerView.Adapter<SolventViewHolders> {
+public class RecyclerViewAdapter extends RecyclerView.Adapter<ViewHolder> {
 
-    private List<ItemObjects> itemList;
+    private List<OrderObject> itemList;
     private Context context;
 
-    public SolventRecyclerViewAdapter(Context context, List<ItemObjects> itemList) {
+    public RecyclerViewAdapter(Context context, List<OrderObject> itemList) {
         this.itemList = itemList;
         this.context = context;
     }
 
     @Override
-    public SolventViewHolders onCreateViewHolder(ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View layoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.solvent_list, null);
-        return new SolventViewHolders(layoutView);
+        View layoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.order_card, null);
+        return new ViewHolder(layoutView);
     }
 
     @Override
-    public void onBindViewHolder(SolventViewHolders holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, int position) {
         holder.countryName.setText(itemList.get(position).getName());
         holder.countryPhoto.setImageResource(itemList.get(position).getPhoto());
     }

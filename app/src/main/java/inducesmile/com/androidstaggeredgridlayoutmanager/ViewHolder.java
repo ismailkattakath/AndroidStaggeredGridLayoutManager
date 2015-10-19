@@ -5,12 +5,12 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class SolventViewHolders extends RecyclerView.ViewHolder {
+public class ViewHolder extends RecyclerView.ViewHolder {
 
     public TextView countryName;
     public ImageView countryPhoto;
 
-    public SolventViewHolders(View itemView) {
+    public ViewHolder(View itemView) {
         super(itemView);
         countryName = (TextView) itemView.findViewById(R.id.country_name);
         countryPhoto = (ImageView) itemView.findViewById(R.id.country_photo);
